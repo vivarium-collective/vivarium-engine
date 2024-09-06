@@ -48,6 +48,7 @@ setup(
         "pytest>=6.2.5",
         "pymongo",
         "orjson",
-        "matplotlib"
+        "matplotlib",
+        "vivarium-core",
     ]
 )

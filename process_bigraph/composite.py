@@ -28,6 +28,7 @@ def register_process_types(core: TypeSystem):
     """Register process types with the core"""
     for process_key, process_type in process_types.items():
         core.register(process_key, process_type)
+
     return core
 
 
